@@ -67,18 +67,17 @@ const Profile = () => {
               titleStyles="text-lg"
             />
 
-            <View className="mt-5 flex flex-row">
+            <View className="mt-5 flex justify-center items-center">
               <InfoBox
                 title={posts.length || 0}
                 subtitle="Posts"
                 titleStyles="text-xl"
-                containerStyles="mr-10"
               />
-              <InfoBox
+              {/* <InfoBox
                 title="1.2k"
                 subtitle="Followers"
                 titleStyles="text-xl"
-              />
+              /> */}
             </View>
           </View>
         )}
